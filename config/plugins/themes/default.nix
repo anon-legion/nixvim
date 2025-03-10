@@ -1,21 +1,9 @@
 {
   colorschemes = {
-    catppuccin = {
+    dracula-nvim = {
       enable = true;
+      autoLoad = true;
       settings = {
-        background = {
-          light = "macchiato";
-          dark = "mocha";
-        };
-        custom_highlights = ''
-          function(highlights)
-            return {
-            CursorLineNr = { fg = highlights.peach, style = {} },
-            NavicText = { fg = highlights.text },
-            }
-          end
-        '';
-        flavour = "macchiato"; # "latte", "mocha", "frappe", "macchiato" or raw lua code
         no_bold = false;
         no_italic = false;
         no_underline = false;
@@ -39,7 +27,7 @@
           indent_blankline.enabled = true;
           mini = {
             enabled = true;
-            indentscope_color = "rosewater";
+            # indentscope_color = "rosewater";
           };
           native_lsp = {
             enabled = true;
