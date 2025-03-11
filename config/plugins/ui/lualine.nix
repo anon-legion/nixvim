@@ -14,7 +14,7 @@ _: {
             "alpha"
           ];
         };
-        theme = "catppuccin";
+        theme = "dracula-nvim";
       };
       sections = {
         lualine_a = [
