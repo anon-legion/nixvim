@@ -77,6 +77,9 @@
             };
           };
         };
+        nixd = {
+          enable = true;
+        };
       };
 
       keymaps = {
@@ -134,6 +137,7 @@
   };
   extraPlugins = with pkgs.vimPlugins; [
     ansible-vim
+    roslyn-nvim
   ];
 
   extraConfigLua = ''
